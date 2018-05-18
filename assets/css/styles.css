@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Fira+Sans');
+
+body {
+    margin: 0;
+    font-family: 'Fira Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1b1b1f;
+    color: white;
+    height: 65px;
+    z-index: 100;
+}
+
+.menu-branding > img {
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.menu-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+    height: 65px;
+}
+
+.menu-link {
+    float: left;
+    padding: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-link > a {
+    color: white;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.menu-link-highlight > a {
+    background-color: #15af67;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+.eyecatcher-start {
+    margin-top: 65px;
+    height: 250px;
+    background-color: #15af67;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.eyecatcher-content {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eyecatcher-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyecatcher-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 10px;
+    border: 4px solid #15af67;
+    border-radius: 50px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #15af67;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.button-white {
+    color: white;
+    border: 4px solid white;
+    padding: 15px;
+    font-size: 16px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.button-white:hover {
+    background-color: white;
+    color: #15af67;
+    transition: 1s;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-container {
+    padding: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-image-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-image-container > img {
+    height: 50px;
+}
+
+.app-icon {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.57);
+    border-radius: 10px;
+}
+
+.app-icon-branding {
+    width: 130px;
+    background-color: #1b1b1f;
+    color: #15af67;
+    font-weight: bold;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-top: -15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-a02828 {
+    background-color: #a02828;
+}
+
+.app-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-description {
+    width: calc(100% - 220px);
+    min-width: 500px;
+}
+
+.app-icon {
+    margin-right: 50px;
+}
+
+.content-button {
+    display: block;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #15af67;
+    border-radius: 50px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #15af67;
+    text-decoration: none;
+}
+
+.content-button:hover {
+    background-color: #15af67;
+    color: white;
+    transition: 1s;
+}
+
+.contact-container {
+    background-color: #15af67;
+    padding: 15px;
+    margin-left: -25px;
+    margin-right: -24px;
+    margin-bottom: -15px;
+}
+
+.button-small-white {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold
+}
+
+.footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    color: #4a4c4f;
+    font-weight: bolder;
+}
+
+.footer-link {
+    color: #66686b;
+}
+
+.menu-button {
+    position: fixed;
+    top: 2px;
+    right: 10px;
+    height: 65px;
+    width: 70px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu-button-item {
+    position: absolute;
+    height: 10px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#men-itm-2 {
+    margin-top: 25px;
+}
+
+#men-itm-3 {
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .menu-links {
+        display: none;
+        position: fixed;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background-color: #1b1b1f;
+        height: auto;
+    }
+    
+    .menu-button {
+        display: block;
+    }
+    
+    .menu-link {
+        float: none;
+        margin-left: -20px;
+        text-align: center;
+    }
+    
+}
